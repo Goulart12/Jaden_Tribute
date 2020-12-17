@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg, #F6D2D6 30.56%, #7688BB 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {    
+    align-items: center;
+    text-align: center;
+}
+
+#jaden {
+    width: 553px;
+    height: 207px;
+    
+    margin-top: 210px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);      
+    margin-top: 274px;
+    margin-left: 630px;
+    margin-right: 630px;
+    max-width: 1100px;
+    
+}
+
+.content1 button {
+    
+    width: 285px;
+    height: 112px;
+
+
+    background: #7688BB;
+    border-radius: 8px;
+    border: none;
+}
+
+.content1 button img {  
+    width: 205px;
+    height: 60px;
+
+}
+
+.content2 button {
+    width: 285px;
+    height: 112px;
+    
+
+    background: #F7D017;
+    border-radius: 8px;
+    border: none;
+}
+
+.content2 button img {
+    width: 208.47px;
+    height: 60px;
+}
+
+.content3 button {
+    
+    width: 285px;
+    height: 112px;
+
+    background: #31343F;
+    border-radius: 8px;
+    border: none;
+}
+
+.content3 button img {
+    width: 210px;
+    height: 60px;
+}
