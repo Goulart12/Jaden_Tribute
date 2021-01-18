@@ -98,7 +98,7 @@ header .toggle.active {
     justify-content: space-between;
 }
 
-.down-button a {
+.up-button a {
     width: 80px;
     height: 80px;
     margin-left: 100px;
@@ -110,9 +110,9 @@ header .toggle.active {
     justify-content: center;
 }
 
-.down-button a img {
-    width: 116px;
-    height: 105px;
+.up-button a img {
+    width: 64px;
+    height: 63px;
 }
 
 .spotify-button a {
@@ -148,56 +148,3 @@ header .toggle.active {
     margin-left: 5%;
 }
 
-@media (max-width: 760px) {
-    #main {    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-
-    #main-container {
-        margin: auto;
-
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: space-evenly;
-    }
-
-    .main-image img {
-        width: 291px;
-        height: 291px;
-    }
-
-    .main-text {
-        width: 291px;
-        height: 600px;
-    }
-
-    #main-button-container {
-        margin: auto;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: space-between;
-    }
-
-    .down-button a {
-        margin-left: 0;
-        margin-bottom: 63px;
-        margin-top: 50px;
-    }
-
-    .spotify-button a {
-        margin: 0;
-        margin-bottom: 71px;
-    }
-
-
-
-}
