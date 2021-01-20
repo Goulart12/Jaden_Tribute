@@ -101,7 +101,7 @@ header .toggle.active {
 .down-button a {
     width: 80px;
     height: 80px;
-    margin-left: 100px;
+    margin-right: 100px;
 
     background: #7688BB;
     border-radius: 50px;
@@ -119,7 +119,7 @@ header .toggle.active {
     text-decoration: none;
     width: 250px;
     height: 80px;
-    margin-right: 100px;
+    margin-left: 100px;
 
     background: #7688BB;
     border-radius: 50px;
@@ -188,16 +188,14 @@ header .toggle.active {
     }
 
     .down-button a {
-        margin-left: 0;
-        margin-bottom: 63px;
-        margin-top: 50px;
+        margin: 0;
+        
+        margin-bottom: 71px;
     }
 
     .spotify-button a {
         margin: 0;
-        margin-bottom: 71px;
+        margin-bottom: 63px;
+        margin-top: 50px;
     }
-
-
-
 }
