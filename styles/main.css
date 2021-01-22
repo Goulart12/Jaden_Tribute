@@ -9,48 +9,14 @@ body {
 
 #main {
     background: linear-gradient(180deg, #F6D2D6 30.56%, #7688BB 100%) no-repeat;
-    
+      
     text-align: center;
     min-height: 100vh;
 
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
-
-/* header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .toggle {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: url(../assets/openMenu.png);
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    z-index: 10000;  
-    margin-top: 70px;  
-    margin-left: 170px;
-    margin-bottom: 69px;
-}
-
-header .toggle.active {
-    position: fixed;
-    right: 40px;
-    background: url(../assets/closeMenu.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 #main-container {
     margin: auto;
@@ -147,6 +113,55 @@ header .toggle.active {
     
     margin-left: 5%;
 }
+
+@keyframes slideDown {
+    from {
+        margin-top: -100%;
+    }
+
+    to {
+        margin-top: 1.4%;
+    }
+}
+
+#main-container {
+    overflow: hidden;
+    animation-name: slideDown;
+    animation-duration: 2s;
+}
+
+@keyframes slideRight {
+    from {
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.spotify-button {
+    overflow: hidden;
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    from {
+        margin-right: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.down-button {
+    overflow: hidden;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
 
 @media (max-width: 760px) {
     #main {    

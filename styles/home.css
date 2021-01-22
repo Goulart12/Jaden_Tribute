@@ -15,6 +15,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #container {
@@ -76,6 +77,21 @@ body {
     color: #7688BB;
 }
 
+@keyframes slideIn {
+    from {
+        margin-top: -100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
+}
+
+#main {
+    animation-duration: 3s;
+    animation-name: slideIn;
+}
+
 @media (max-width: 760px) {
     #container {
         margin: auto;
@@ -106,6 +122,21 @@ body {
         height: 74px;
 
         font-size: 24px;
+    }
+
+    @keyframes slideIn {
+        from {
+            margin-top: -200%;
+        }
+    
+        to {
+            margin-top: 0%;
+        }
+    }
+    
+    #main {
+        animation-duration: 2s;
+        animation-name: slideIn;
     }
 
 
