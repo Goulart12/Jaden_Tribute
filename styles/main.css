@@ -162,6 +162,36 @@ body {
     animation-duration: 2s;
 }
 
+@media (min-width: 1500px) {
+    .main-image img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main-text {
+        width: 491px;
+        height: 400px;
+    }
+
+    .main-text h3 {
+    font-size: 15px;
+    
+    }
+
+    .down-button a {
+        width: 100px;
+        height: 100px;
+        margin-right: 260px;
+    }
+    
+    .spotify-button a {
+        width: 250px;
+        height: 100px;
+        margin-left: 260px;
+    }
+
+}
+
 
 @media (max-width: 760px) {
     #main {    
