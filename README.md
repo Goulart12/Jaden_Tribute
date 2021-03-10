@@ -12,7 +12,7 @@
 </p>
 
 ### Sobre
-<p>O projeto consiste em um site de tributo para um exercício do freecodecamp, então eu fiz sobre um cantor que eu sou bastante fã. O site é dividido entre os álbums principais do Jaden e uma inrotução geral sobre a vida dele, cada álbum deve conter uma resenha sobre o mesmo e um botão que leva ao spotify para que o leitor possa escutar as músicas.</p>
+<p>O projeto consiste em um site de tributo para um exercício do freecodecamp, então eu fiz sobre um cantor que eu sou bastante fã. O site é dividido entre os álbums principais do Jaden e uma introdução geral sobre a vida dele, cada álbum contém uma resenha sobre o mesmo e um botão que leva ao spotify para que o leitor possa escutar as músicas.</p>
 
 ### Tecnologias
 
@@ -27,11 +27,11 @@
 
 ### Aparência Web
 
-<p align="center"><img src="./screenshots/home-p.png" width="400"></p>
-<p align="center"><img src="./screenshots/main-p.png" width="400"></p>
-<p align="center"><img src="./screenshots/syre-p.png" width="400"></p>
-<p align="center"><img src="./screenshots/erys-p.png" width="400"></p>
-<p align="center"><img src="./screenshots/ctv3-p.png" width="400"></p>
+<p align="center"><img src="./screenshots/home-p.png" width="600"></p>
+<p align="center"><img src="./screenshots/main-p.png" width="600"></p>
+<p align="center"><img src="./screenshots/syre-p.png" width="600"></p>
+<p align="center"><img src="./screenshots/erys-p.png" width="600"></p>
+<p align="center"><img src="./screenshots/ctv3-p.png" width="600"></p>
 
 ### Aparência Mobile
 
@@ -42,4 +42,6 @@
 ### Licença 
 
 - <a href="LICENSE">MIT License</a>
+
+### Feito com :black_heart: por Juarez Goulart.
 
