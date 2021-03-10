@@ -12,7 +12,7 @@
 </p>
 
 ### Sobre
-<p>O projeto consiste em um site de tributo para um exercício do freecodecamp, então eu fiz sobre um cantor que eu sou bastante fã. O site é dividido entre os álbums principais do Jaden e uma introdução geral sobre a vida dele, cada álbum contém uma resenha sobre o mesmo e um botão que leva ao spotify para que o leitor possa escutar as músicas.</p>
+<p>O projeto consiste em um site de tributo para um exercício do freecodecamp, então eu fiz sobre um cantor que eu sou bastante fã. O site é dividido entre os álbums principais do Jaden e uma introdução geral sobre a vida dele, cada álbum contém uma resenha sobre o mesmo e um botão que leva ao spotify para que o leitor possa escutar as músicas. Foi feito com responsividade para telas com resolução de 1080p, 720p e mobile.</p>
 
 ### Tecnologias
 
